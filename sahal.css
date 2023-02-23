@@ -1,0 +1,79 @@
+header{
+    max-width: 1200px;
+    margin: 0% auto;
+
+}.logo img{
+    width:80px;
+    
+    
+}
+.menu ul{
+    list-style: none;
+    display: flex;
+justify-content: center;
+    column-gap: 50px;
+    
+}
+.menu li {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+
+
+}
+header {
+    display: flex;
+justify-content: center;
+
+align-items:end;
+margin-top: 50px;
+}
+.menu{
+    /* background-color: blue; */
+    width: 1200px;
+    height: 200px;
+}
+.socail {
+   position: absolute;
+   left: 1200px;
+   top: 80px;
+    column-gap: 10px;
+    /* margin-right:20% ; */
+}
+.socail i {
+    background: blue;
+    color: #fff;
+    width: 30px;
+    border-radius: 4px;
+    /* height: 30px; */
+    text-align: center;
+    line-height: 30px;
+}
+.contentBOdy {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+}
+.card1 h1 {
+    background: pink;
+    margin: 0 auto;
+    padding: 7px;
+}
+.maindiv {
+    display: flex;
+    column-gap: 15px;
+}
+.card2 img {
+    max-width: 100%;
+}
+
+footer {
+    background: beige;
+    margin-top: 50px;
+}
+.menu:hover{
+    scale: 1.1;
+    
+}
